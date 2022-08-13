@@ -1,6 +1,6 @@
 # Nicholas Digioia-Celentano
 # nd347
-# CS341-452 Project 1
+# CS341-452 Project 1 
 
 import sys
 from queue import Queue
