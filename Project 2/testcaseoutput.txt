@@ -1,0 +1,373 @@
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+3, ? -> ?: Current state = q3
+8, ? -> ?: Current state = q3
+1, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+5, ? -> ?: Current state = q5
+8, ? -> ?: Current state = q5
+8, ? -> ?: Current state = q5
+6, ? -> ?: Current state = q5
+&, & -> ?: Current state = q7
+String &381.5886& is accepted! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+., ? -> ?: Current state = q4
+8, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+7, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+8, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+0, ? -> ?: Current state = q5
+0, ? -> ?: Current state = q5
+/, ? -> ?: Current state = q2
+9, ? -> ?: Current state = q3
+0, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+7, ? -> ?: Current state = q5
+6, ? -> ?: Current state = q5
+5, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+Program crashed at state 2 due to invalid character &
+String &.8+7.-8.00/90.765+& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+7, ? -> ?: Current state = q3
+9, ? -> ?: Current state = q3
+5, ? -> ?: Current state = q3
+6, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+4, ? -> ?: Current state = q5
+9, ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+3, ? -> ?: Current state = q3
+4, ? -> ?: Current state = q3
+1, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+/, ? -> ?: Current state = q2
+0, ? -> ?: Current state = q3
+6, ? -> ?: Current state = q3
+0, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+1, ? -> ?: Current state = q5
+0, ? -> ?: Current state = q5
+/, ? -> ?: Current state = q2
+5, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+5, ? -> ?: Current state = q3
+8, ? -> ?: Current state = q3
+1, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+6, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+9, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+5, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+/, ? -> ?: Current state = q2
+7, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+&, & -> ?: Current state = q7
+String &7956.+.492*341.2/060.10/52581.263-.9+.53/7.& is accepted! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+3, ? -> ?: Current state = q3
+8, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+8, ? -> ?: Current state = q5
+9, ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+3, ? -> ?: Current state = q3
+4, ? -> ?: Current state = q3
+Program crashed at state 3 due to invalid character &
+String &382.89*34& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+4, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+9, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+Program crashed at state 4 due to invalid character *
+String &4.239-.*7.29& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+6, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+8, ? -> ?: Current state = q5
+8, ? -> ?: Current state = q5
+Program crashed at state 5 due to invalid character .
+String &6.88.6+32.208& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+(, ? -> (: Current state = q2
+1, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+3, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+4, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+9, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+/, ? -> ?: Current state = q2
+3, ? -> ?: Current state = q3
+9, ? -> ?: Current state = q3
+Program crashed at state 3 due to invalid character )
+String &(1.2+(3.4-.9)/39).3& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+(, ? -> (: Current state = q2
+., ? -> ?: Current state = q4
+3, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+Program crashed at state 6 due to invalid character 6
+String &(.3)64& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+8, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+4, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+9, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+0, ? -> ?: Current state = q3
+0, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+0, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+*, ? -> ?: Current state = q2
+2, ? -> ?: Current state = q3
+1, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+), ( -> ?: Current state = q6
++, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+., ? -> ?: Current state = q4
+2, ? -> ?: Current state = q5
+/, ? -> ?: Current state = q2
+7, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+), ( -> ?: Current state = q6
+&, & -> ?: Current state = q7
+String &((824.23+(9.22-00.0)*21.2))+((.2/7.))& is accepted! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+Program crashed at state 2 due to invalid character )
+String &(())& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+1, ? -> ?: Current state = q3
+4, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+5, ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+6, ? -> ?: Current state = q3
+9, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+1, ? -> ?: Current state = q5
+1, ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+., ? -> ?: Current state = q4
+3, ? -> ?: Current state = q5
+9, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+4, ? -> ?: Current state = q3
+9, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+1, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+), ( -> ?: Current state = q6
+/, ? -> ?: Current state = q2
+4, ? -> ?: Current state = q3
+9, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+5, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+Program crashed at state 6 due to invalid character &
+String &((14.252+(692.211*(.39+492.1))/49.235)& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+Program crashed at state 2 due to invalid character +
+String &+6.5& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+2, ? -> ?: Current state = q3
+6, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+0, ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+., ? -> ?: Current state = q4
+8, ? -> ?: Current state = q5
+7, ? -> ?: Current state = q5
+/, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+4, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+2, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+/, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+2, ? -> ?: Current state = q3
+3, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+5, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+1, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+-, ? -> ?: Current state = q2
+2, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+9, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
++, ? -> ?: Current state = q2
+6, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+/, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+(, ? -> (: Current state = q2
+8, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+3, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+3, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+5, ? -> ?: Current state = q3
+7, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+8, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+0, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+/, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+3, ? -> ?: Current state = q5
+3, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+0, ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+), ( -> ?: Current state = q6
+&, & -> ?: Current state = q7
+String &26.0*(.87/((4.+.2)/(23.531)-2.9)+6.)/(((823.*.333-57.*8.0)/.33+.0))& is accepted! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+., ? -> ?: Current state = q4
+0, ? -> ?: Current state = q5
+*, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+3, ? -> ?: Current state = q3
+2, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+9, ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
+2, ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+., ? -> ?: Current state = q4
+7, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+Program crashed at state 2 due to invalid character *
+String &.0*(32.922+.7-*9.))& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Enter string to analyze: 
+Initial State = q1
+&, ? -> &: Current state = q2
+(, ? -> (: Current state = q2
+4, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
++, ? -> ?: Current state = q2
+(, ? -> (: Current state = q2
+., ? -> ?: Current state = q4
+8, ? -> ?: Current state = q5
+-, ? -> ?: Current state = q2
+9, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+), ( -> ?: Current state = q6
+), ( -> ?: Current state = q6
+/, ? -> ?: Current state = q2
+2, ? -> ?: Current state = q3
+., ? -> ?: Current state = q5
+Program crashed at state 5 due to invalid character )
+String &(4.+(.8-9.))/2.)*3.4+(5.21/34.2& is denied! 
+
+Would you like to enter a string to analyze? (y/n) Thank you, and goodbye!

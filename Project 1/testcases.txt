@@ -1,0 +1,404 @@
+Project 1 for CS 341 
+ Section number: 452 
+ Semester: Spring 2022 
+ Written by: Nicholas Digioia-Celentano, nd347 
+ Instructor: Marvin Nakayama, marvin@njit.edu
+Would you like to enter a string for analyzing? (y/n): Please enter your string: foo@abcdef.org
+Start state: q0
+f --- State: q1
+o --- State: q1
+o --- State: q1
+@ --- State: q3
+a --- State: q4
+b --- State: q4
+c --- State: q4
+d --- State: q4
+e --- State: q4
+f --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+String is valid!
+
+Would you like to enter the string? (y/n): Please enter your string: z@o.org
+Start state: q0
+z --- State: q1
+@ --- State: q3
+o --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+String is valid!
+
+Would you like to enter the string? (y/n): Please enter your string: ba@ba.or
+Start state: q0
+b --- State: q1
+a --- State: q1
+@ --- State: q3
+b --- State: q4
+a --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: edfg@.org
+Start state: q0
+e --- State: q1
+d --- State: q1
+f --- State: q1
+g --- State: q1
+@ --- State: q3
+Trap State!
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: webweb.ab.c.org@cs.defgh.org
+Start state: q0
+w --- State: q1
+e --- State: q1
+b --- State: q1
+w --- State: q1
+e --- State: q1
+b --- State: q1
+. --- State: q2
+a --- State: q1
+b --- State: q1
+. --- State: q2
+c --- State: q1
+. --- State: q2
+o --- State: q1
+r --- State: q1
+g --- State: q1
+@ --- State: q3
+c --- State: q4
+s --- State: q4
+. --- State: q5
+d --- State: q3
+e --- State: q4
+f --- State: q4
+g --- State: q4
+h --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+String is valid!
+
+Would you like to enter the string? (y/n): Please enter your string: foo@goo.org..org
+Start state: q0
+f --- State: q1
+o --- State: q1
+o --- State: q1
+@ --- State: q3
+g --- State: q4
+o --- State: q4
+o --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+. --- State: q5
+Trap State!
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Invalid. Please write y or n
+Would you like to enter a string for analyzing? (y/n): Please enter your string: abqe.@boom.org
+Start state: q0
+a --- State: q1
+b --- State: q1
+q --- State: q1
+e --- State: q1
+. --- State: q2
+Trap State!
+@ --- Trap State: q9
+b --- Trap State: q9
+o --- Trap State: q9
+o --- Trap State: q9
+m --- Trap State: q9
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Invalid. Please write y or n
+Would you like to enter a string for analyzing? (y/n): Please enter your string: educ@organization.orga
+Start state: q0
+e --- State: q1
+d --- State: q1
+u --- State: q1
+c --- State: q1
+@ --- State: q3
+o --- State: q4
+r --- State: q4
+g --- State: q4
+a --- State: q4
+n --- State: q4
+i --- State: q4
+z --- State: q4
+a --- State: q4
+t --- State: q4
+i --- State: q4
+o --- State: q4
+n --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+a --- State: q4
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: redblue@green..org
+Start state: q0
+r --- State: q1
+e --- State: q1
+d --- State: q1
+b --- State: q1
+l --- State: q1
+u --- State: q1
+e --- State: q1
+@ --- State: q3
+g --- State: q4
+r --- State: q4
+e --- State: q4
+e --- State: q4
+n --- State: q4
+. --- State: q5
+Trap State!
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: random@org
+Start state: q0
+r --- State: q1
+a --- State: q1
+n --- State: q1
+d --- State: q1
+o --- State: q1
+m --- State: q1
+@ --- State: q3
+o --- State: q4
+r --- State: q4
+g --- State: q4
+String is invalid!
+
+Would you like to enter the string? (y/n): Invalid. Please write y or n
+Would you like to enter a string for analyzing? (y/n): Please enter your string: poke@a.org.org
+Start state: q0
+p --- State: q1
+o --- State: q1
+k --- State: q1
+e --- State: q1
+@ --- State: q3
+a --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+String is valid!
+
+Would you like to enter the string? (y/n): Please enter your string: www@org.orga
+Start state: q0
+w --- State: q1
+w --- State: q1
+w --- State: q1
+@ --- State: q3
+o --- State: q4
+r --- State: q4
+g --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+a --- State: q4
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: wwwb@org.or
+Start state: q0
+w --- State: q1
+w --- State: q1
+w --- State: q1
+b --- State: q1
+@ --- State: q3
+o --- State: q4
+r --- State: q4
+g --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: www.org@bbdef.org
+Start state: q0
+w --- State: q1
+w --- State: q1
+w --- State: q1
+. --- State: q2
+o --- State: q1
+r --- State: q1
+g --- State: q1
+@ --- State: q3
+b --- State: q4
+b --- State: q4
+d --- State: q4
+e --- State: q4
+f --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+String is valid!
+
+Would you like to enter the string? (y/n): Please enter your string: food@for.org@
+Start state: q0
+f --- State: q1
+o --- State: q1
+o --- State: q1
+d --- State: q1
+@ --- State: q3
+f --- State: q4
+o --- State: q4
+r --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+Trap State!
+@ --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: net@network.or.org
+Start state: q0
+n --- State: q1
+e --- State: q1
+t --- State: q1
+@ --- State: q3
+n --- State: q4
+e --- State: q4
+t --- State: q4
+w --- State: q4
+o --- State: q4
+r --- State: q4
+k --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+String is valid!
+
+Would you like to enter the string? (y/n): Please enter your string: network@organization.org.or
+Start state: q0
+n --- State: q1
+e --- State: q1
+t --- State: q1
+w --- State: q1
+o --- State: q1
+r --- State: q1
+k --- State: q1
+@ --- State: q3
+o --- State: q4
+r --- State: q4
+g --- State: q4
+a --- State: q4
+n --- State: q4
+i --- State: q4
+z --- State: q4
+a --- State: q4
+t --- State: q4
+i --- State: q4
+o --- State: q4
+n --- State: q4
+. --- State: q5
+o --- State: q6
+r --- State: q7
+g --- State: q8
+. --- State: q5
+o --- State: q6
+r --- State: q7
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: @abcde.org
+Start state: q0
+Trap State!
+@ --- Trap State: q9
+a --- Trap State: q9
+b --- Trap State: q9
+c --- Trap State: q9
+d --- Trap State: q9
+e --- Trap State: q9
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: people.dog.cat@.org
+Start state: q0
+p --- State: q1
+e --- State: q1
+o --- State: q1
+p --- State: q1
+l --- State: q1
+e --- State: q1
+. --- State: q2
+d --- State: q1
+o --- State: q1
+g --- State: q1
+. --- State: q2
+c --- State: q1
+a --- State: q1
+t --- State: q1
+@ --- State: q3
+Trap State!
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): Please enter your string: cable..cord@fort.org
+Start state: q0
+c --- State: q1
+a --- State: q1
+b --- State: q1
+l --- State: q1
+e --- State: q1
+. --- State: q2
+Trap State!
+. --- Trap State: q9
+c --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+d --- Trap State: q9
+@ --- Trap State: q9
+f --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+t --- Trap State: q9
+. --- Trap State: q9
+o --- Trap State: q9
+r --- Trap State: q9
+g --- Trap State: q9
+String is invalid!
+
+Would you like to enter the string? (y/n): 
