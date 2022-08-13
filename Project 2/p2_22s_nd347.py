@@ -2,7 +2,7 @@
 # nd347
 # CS341-452, Spring '22, Project 2, Professor Nakayama
 
-# import fileinput
+# import fileinput 
 
 
 # using a stack to remember inputs
